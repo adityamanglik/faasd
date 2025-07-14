@@ -8,3 +8,7 @@ basic-auth-password
 /bin
 /secrets
 .vscode
+
+template
+build
+.secrets
