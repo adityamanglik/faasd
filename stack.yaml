@@ -1,0 +1,17 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  goll1:
+    lang: golang-middleware
+    handler: ./goll1
+    image: hvgelite2503/goll1:latest
+  goll2:
+    lang: golang-middleware
+    handler: ./goll2
+    image: hvgelite2503/goll2:latest
+  goll3:
+    lang: golang-middleware
+    handler: ./goll3
+    image: hvgelite2503/goll3:latest
