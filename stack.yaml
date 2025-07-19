@@ -3,16 +3,15 @@ provider:
   name: openfaas
   gateway: http://127.0.0.1:8080
 functions:
-  fib1:
-    lang: python3-http
-    handler: ./fib1
-    image: hvgelite2503/fib1:latest
-  fib2:
-    lang: python3-http
-    handler: ./fib2
-    image: hvgelite2503/fib2:latest
-  fib3:
-    lang: python3-http
-    handler: ./fib3
-    image: hvgelite2503/fib3:latest
-
+  goll1:
+    lang: golang-middleware
+    handler: ./goll1
+    image: hvgelite2503/goll1:latest
+  goll2:
+    lang: golang-middleware
+    handler: ./goll2
+    image: hvgelite2503/goll2:latest
+  goll3:
+    lang: golang-middleware
+    handler: ./goll3
+    image: hvgelite2503/goll3:latest

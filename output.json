@@ -1,0 +1,12 @@
+{
+  "sum": 204430,
+  "executionTime": 6563,
+  "requestNumber": 2147483647,
+  "arraysize": 10000,
+  "heapAlloc": 3864704,
+  "GOGC": "1000",
+  "GOMEMLIMIT": "128M",
+  "NextGC": 4194304,
+  "NumGC": 1,
+  "containerId": "goll"
+}
